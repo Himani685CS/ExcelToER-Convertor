@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload XLSX and Display ER Diagram</title>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+
+        <style>
+        #mynetwork {
+            width: 100%;
+            height: 600px;
+            border: 1px solid lightgray;
+            margin-top: 20px;
+        }
+    </style>
+    </head>
+    <body>
+        <h2>Upload XLSX File</h2>
+        <input type="file" id="fileInput" accept=".xlsx">
+        <div id="mynetwork"></div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
